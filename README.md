@@ -30,7 +30,7 @@ Here's another chart, this one is a visualization of the drawdown for the exampl
 
 ## Pre-requisites
 
-- Make sure your data is sorted in forward chronological order. 
+- Make sure your data is sorted in forward chronological order.
 
 ## Data format
 
@@ -116,6 +116,7 @@ let inputSeries = dataForge.readFileSync("STW.csv")
     .setIndex("date") // Index so we can later merge on date.
     .renameSeries({ date: "time" });
 ```
+
 The example data file is available in [the example repo](https://github.com/grademark/grademark-first-example).
 
 ### Add indicators
@@ -192,6 +193,6 @@ We are only just getting started in this example to learn more please follow my 
 - [Data-Forge](http://data-forge-js.com/)
 - [Data-Forge Notebook](http://www.data-forge-notebook.com/)
 
-## Support the developer 
+## Support the developer
 
 <a target="_blank" href="https://www.codecapers.com.au/about#support-my-work">Click here to **support the developer.**</a>
